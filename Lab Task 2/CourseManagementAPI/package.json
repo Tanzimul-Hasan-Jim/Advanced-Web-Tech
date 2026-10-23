@@ -1,0 +1,33 @@
+{
+  "name": "course-management-api-lab-task-02",
+  "version": "1.0.0",
+  "description": "NestJS Course Management API \u2014 Lab Task 02",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "nest build",
+    "format": "prettier --write \"src/**/*.ts\"",
+    "start": "nest start",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/main"
+  },
+  "dependencies": {
+    "@nestjs/common": "^11.0.0",
+    "@nestjs/core": "^11.0.0",
+    "@nestjs/platform-express": "^11.0.0",
+    "reflect-metadata": "^0.2.2",
+    "rxjs": "^7.8.1",
+    "class-transformer": "^0.5.1",
+    "class-validator": "^0.14.2",
+    "@nestjs/mapped-types": "^2.1.0",
+    "multer": "^2.0.2"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^11.0.0",
+    "@nestjs/schematics": "^11.0.0",
+    "@types/express": "^5.0.0",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  }
+}
